@@ -1,0 +1,12 @@
+1-->Arrow functions are a shorter syntax for writing functions.
+Syntax:
+const add = (a, b) => a + b;
+
+2-->A callback is a function passed as an argument to another function.
+Useful for asynchronous tasks like API calls, event handling, and sequencing operations.
+
+3-->Function Declaration is hoisted (can be used before it's defined).
+Function Expression is not hoisted (must be defined before use).
+
+4-->Global scope: Variable accessible anywhere in the code.
+Local scope: Variable declared inside a function/block, accessible only there.
