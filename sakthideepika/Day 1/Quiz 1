@@ -1,0 +1,13 @@
+1-->let has block scope, while var has function scope.
+let does not get hoisted the same way as var (though it is hoisted, it's not initialized).
+
+2-->Output: '55' (a string)
+
+3--> ===
+
+4-->It is a shortcut for an if-else statement.
+Syntax: condition ? expressionIfTrue : expressionIfFalse
+
+5-->let x = 5;
+console.log(x++); // prints 5
+console.log(++x); // prints 7
