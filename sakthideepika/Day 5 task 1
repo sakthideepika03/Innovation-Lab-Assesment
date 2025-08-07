@@ -1,0 +1,36 @@
+
+// Use filter() to get a subset of array elements (e.g., numbers > 10)
+let numbers = [5, 10, 15, 20, 25];
+let filteredNumbers = numbers.filter(num => num > 10);
+console.log(filteredNumbers); // Output: [15, 20, 25]
+
+// Use reduce() to calculate the sum, product, or concatenate strings
+let sum = numbers.reduce((acc, num) => acc + num, 0);
+console.log(sum); // Output: 75
+
+let product = numbers.reduce((acc, num) => acc * num, 1);
+console.log(product); // Output: 375000
+
+let strings = ['Hello', ' ', 'World'];
+let concatenatedString = strings.reduce((acc, str) => acc + str, '');
+console.log(concatenatedString); // Output: "Hello World"
+
+// Use slice() to extract a portion of an array without modifying the original
+let slicedNumbers = numbers.slice(1, 3);
+console.log(slicedNumbers); // Output: [10, 15]
+console.log(numbers); // Output: [5, 10, 15, 20, 25] (original array remains unchanged)
+
+// Use splice() to remove and/or add elements in an array
+let splicedNumbers = [...numbers]; // Create a copy to avoid modifying the original
+splicedNumbers.splice(1, 1, 12); // Replace the element at index 1 with 12
+console.log(splicedNumbers); // Output: [5, 12, 15, 20, 25]
+
+// Use the spread operator to clone an array and merge two arrays
+let clonedNumbers = [...numbers];
+console.log(clonedNumbers); // Output: [5, 10, 15, 20, 25]
+
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let mergedArray = [...array1, ...array2];
+console.log(mergedArray); // Output: [1, 2, 3, 4, 5, 6]
+# array methods, working with objects and methods, and object destructuring and spread.
