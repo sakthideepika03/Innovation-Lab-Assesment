@@ -1,0 +1,23 @@
+Working with Objects and Methods
+// Create objects representing real-world entities (e.g., a student with name, age, and a method to display info)
+let student = {
+  name: 'John Doe',
+  age: 20,
+  displayInfo: function() {
+    console.log(`Name: ${this.name}, Age: ${this.age}`);
+  }
+};
+
+student.displayInfo(); // Output: "Name: John Doe, Age: 20"
+
+// Add functions inside objects as methods and invoke them
+student.greet = function() {
+  console.log(`Hello, my name is ${this.name}!`);
+};
+
+student.greet(); // Output: "Hello, my name is John Doe!"
+
+// Explore accessing and modifying object properties
+console.log(student.name); // Output: "John Doe"
+student.name = 'Jane Doe';
+console.log(student.name); // Output: "Jane Doe"
