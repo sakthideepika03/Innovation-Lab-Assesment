@@ -1,0 +1,17 @@
+1--> 4 
+Math.floor() rounds a number down to the nearest whole integer.
+Math.floor(4.7) → 4
+
+2-->.toUpperCase() method.
+Eg:let str = "hello";
+console.log(str.toUpperCase()); // Output: "HELLO"
+
+3-->for-in iterates over indexes (keys) of an array.
+
+4-->forEach() executes a function on each array element and returns undefined.
+map() transforms each element and returns a new array.
+
+5-->let nums = [1, 2, 3];
+let squared = nums.map(n => n * n);
+console.log(squared);
+Output: [1, 4, 9]
